@@ -5,7 +5,6 @@ padding:0;
 }
 
 
-
 body {
 	margin: 0;
 	color: #333;
@@ -17,13 +16,11 @@ body {
 }
 
 
-
 /* 文字サイズ */
 #main{}
-#menuR,#menuL{
+#menuL{
 	font-size: 92%;
 }
-
 
 
 p, /* 文章の行間を指定 */
@@ -35,23 +32,19 @@ dd
 }
 
 
-
 p{
 	margin: 0px 0em 1.5em 3px;
 }
-
 
 ul,ol,dl{
 	margin: 0em 1em 1em 2em;
 }
 
 
-
 /* ========================================  .contentswrap 間隔・余白調整用 */
 .contentswrap{
 	margin: 0px;
 }
-
 
 
 /* ========================================  #page ページ外枠 */
@@ -63,7 +56,6 @@ ul,ol,dl{
 
 
 
-
 /* ========================================  #header 画面上部 */
 #header {
 	height: 75px;
@@ -71,7 +63,6 @@ ul,ol,dl{
 	border-top: 1px solid #FFFFFF;
 	color: #FFFFFF;
 }
-
 
 #sitename {
 	margin: 30px 0px 0px;
@@ -81,13 +72,11 @@ ul,ol,dl{
 }
 
 
-
 /* ========================================  #menu 上部メニュー */
 #menu {
 	border-right: 1px solid #CCCCCC;
 	border-left: 1px solid #CCCCCC;
 }
-
 
 
 
@@ -100,13 +89,11 @@ ul.menu_f02{
 
 
 
-
 ul.menu_f02 li{
 	float: left;
 	border-right: 1px solid #9AA7B6;
 	display: block;
 }
-
 
 
 
@@ -126,11 +113,9 @@ ul.menu_f02 li a{
 
 
 
-
 ul.menu_f02 li a.nowthis{
 	border-bottom: 5px solid #FF6699!important;
 }
-
 
 
 
@@ -144,7 +129,6 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 
 
 
-
 /* ======================================== #contents 画面中央部 #mainとサイドメニューの外枠 */
 #contents{
 	padding: 30px 0px 20px;
@@ -152,14 +136,12 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 }
 
 
-
 /* ========================================  #main ページの本文 */
 #main {
-	float: left;
-	width: 500px;
+	float: right;
+	width: 650px;
 	margin: 0px 0px 20px;
 }
-
 
 
 #main h1 {
@@ -167,7 +149,6 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	margin: 0px;
 	color: #0B7A8E;
 }
-
 
 
 #main h2 {
@@ -182,7 +163,6 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 
 
 
-
 #main h3 {
 	margin: 0px 0px 0.5em 3px;
 	font-size: 100%;
@@ -193,8 +173,8 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  menuL 左サイドメニュー */
 #menuL {
 	float: left;
-	width: 200px;
-	margin: 0px 20px 20px 0px;
+	width: 280px;
+	margin: 0px 0px 20px;
 	background-color: #F6F6F6;
 }
 
@@ -202,22 +182,6 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	margin-right: 1em;
 	margin-left: 1em;
 }
-
-
-/* ========================================  menuL 右サイドメニュー */
-#menuR {
-	float: right;
-	width: 200px;
-	margin: 0px 0px 20px;
-	background-color: #F6F6F6;
-}
-
-
-#menuR p{
-	margin-right: 1em;
-	margin-left: 1em;
-}
-
 
 /* ========================================  #underNavi 画面下部サブナビゲーション */
 #underNavi{
@@ -228,16 +192,16 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 }
 
 
-
 /* ========================================  #footer 画面下部 */
 #footer {
 	padding: 10px 0px;
+	margin: 400pt 0pt 0pt 0pt;
+	width: 100%;
 	border-top: 5px solid #CCCCCC;
 	color: #FFFFFF;
 	text-align: center;
 	background-color: #0B7A8E;
 }
-
 
 
 
@@ -250,21 +214,18 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 }
 
 
-
 #templatelink a{
 	color: #336699;
 	text-decoration: none;
 }
 
 
-
 /* ========================================  そのほか個別設定 */
 .title{
 	padding: 0px 0px 0px 10px;
-	margin: 0px 0px 20px;
+	margin: 0px 0px 30px 0px;
 	border-left: 30px solid #F4CC0B;
 }
-
 
 .label{
 	padding: 7px 5px 5px 10px;
@@ -276,7 +237,6 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 }
 
 
-
 .subh {
 	padding: 5px 0px 0px 3px;
 	margin: 0px;
@@ -285,11 +245,9 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	color: #4A8854;
 }
 
-
 .photo {
 	margin: 0px 0px 20px;
 }
-
 
 .toInfo {
 	margin: 0px 0px 1em;
@@ -297,24 +255,16 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	list-style-type: none;
 }
 
-
-.boxL {
+.box {
 	float: left;
-	height: 160px;
-	width: 245px;
-	margin: 0px 0px 15px;
-	font-size: 92%;
-	background-color: #EBF0F3;
-}
-.boxR {
-	float: right;
-	height: 160px;
-	width: 245px;
-	margin: 0px 0px 15px;
+	height: 150px;
+	width: 100%;
+	margin: 0px 10px 15px 0px;
 	font-size: 92%;
 	background-color: #EBF0F3;
 }
 
-.boxL p, .boxR p{
+.box p{
 	margin: 10px !important;
 }
+
