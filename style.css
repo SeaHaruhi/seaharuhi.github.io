@@ -173,7 +173,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  menuL 左サイドメニュー */
 #menuL {
 	float: left;
-	left: 5%;
+	left: 0%;
 	width: 20%;
 	margin: 0px 0px 10px 0px;
 	background-color: #F6F6F6;
@@ -197,8 +197,8 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 #footer {
 	position: absolute;
 	bottom: 0;
-	right: 5%;
-	left: 5%;
+	margin: 0% 5% 5% 0%;
+	width: 95%;
 	border-top: 5px solid #CCCCCC;
 	color: #FFFFFF;
 	text-align: center;
