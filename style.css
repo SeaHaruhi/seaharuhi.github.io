@@ -194,8 +194,8 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 
 /* ========================================  #footer 画面下部 */
 #footer {
-	padding: 10px 0px;
-	margin: 90% 0pt 0pt 0pt;
+	position: absolute;
+	bottom: 0;
 	width: 100%;
 	border-top: 5px solid #CCCCCC;
 	color: #FFFFFF;
