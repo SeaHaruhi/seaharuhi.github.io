@@ -139,7 +139,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  #main ページの本文 */
 #main {
 	float: right;
-	width: 650px;
+	width: 70px;
 	margin: 0px 0px 20px;
 }
 
@@ -173,7 +173,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  menuL 左サイドメニュー */
 #menuL {
 	float: left;
-	width: 280px;
+	width: 30%;
 	margin: 0px 0px 20px;
 	background-color: #F6F6F6;
 }
@@ -195,7 +195,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  #footer 画面下部 */
 #footer {
 	padding: 10px 0px;
-	margin: 400pt 0pt 0pt 0pt;
+	margin: 90% 0pt 0pt 0pt;
 	width: 100%;
 	border-top: 5px solid #CCCCCC;
 	color: #FFFFFF;
