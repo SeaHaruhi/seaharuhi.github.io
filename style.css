@@ -139,7 +139,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  #main ページの本文 */
 #main {
 	float: right;
-	width: 70px;
+	width: 70%;
 	margin: 0px 0px 20px;
 }
 
@@ -173,8 +173,8 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 /* ========================================  menuL 左サイドメニュー */
 #menuL {
 	float: left;
-	width: 30%;
-	margin: 0px 0px 20px;
+	width: 27%;
+	margin: 0px 0px 10px 0px;
 	background-color: #F6F6F6;
 }
 
