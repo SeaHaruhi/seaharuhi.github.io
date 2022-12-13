@@ -265,6 +265,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	font-size: 92%;
 	background-color: #EBF0F3;
 }
+
 .box1 {
 	float: left;
 	height: 200px;
@@ -273,6 +274,7 @@ ul.menu_f02 li a:hover , ul.menu_f01 li a.nowthis{
 	font-size: 92%;
 	background-color: #EBF0F3;
 }
+
 .box p{
 	margin: 10px !important;
 }
